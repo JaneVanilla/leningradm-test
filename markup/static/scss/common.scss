@@ -1,0 +1,38 @@
+// Common styles of the project
+
+html, body {
+    height: 100%;
+}
+
+.page {
+	/*
+   background: #a673da; 
+   */
+   background: #79a6f8;
+}
+
+.page__wrapper {
+	width: 300px;
+	padding: 0 10px;
+	margin: 0 auto;
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+@media (min-width: 768px) {
+.page__wrapper {
+	width: 728px;
+	padding: 0 20px;
+    }
+}
+@media (min-width: 1200px) {
+.page__wrapper {
+	width: 1160px;
+    }
+}
+* html .page__wrapper {
+    height: 100%;
+}
+
+.page__buffer {
+    height: 50px;
+}
